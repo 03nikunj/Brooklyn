@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+
+    <!-- REMIX ICON -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- BROOKLYN CSS -->
+    <link rel="stylesheet" href="/css/brooklyn.css" />
+    <link rel="stylesheet" href="/css/MediaQuery.css" />
+    <title>Brooklyn</title>
+  </head>
+  <body>
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot" data-cursor-dot=""></div>
+    <div class="cursor-outline" data-cursor-outline=""></div>
+
+    <!-- Let's Talk -->
+
+    <div class="container">
+      <div class="Let-Talk">
+        <header>
+          <div class="nav-logo">
+            <h1>Brooklyn.</h1>
+          </div>
+          <div class="nav-menu">
+            <ul>
+              <a href="/Pages/welcome.html"><li>WELCOME</li></a>
+              <a href="/Pages/ourwork.html"><li>OUR WORK</li></a>
+              <a href="/Pages/services.html"><li>SERVICES</li></a>
+              <a href="/Pages/team.html"><li>TEAM</li></a>
+              <a href="/Pages/journal.html"><li>JOURNAL</li></a>
+              <a href="/Pages/letstalk.html"><li>LET'S TALK</li></a>
+              <i class="ri-menu-4-line" onclick="ShowMenu()"></i>
+            </ul>
+          </div>
+        </header>
+
+        <!-- RESPONSIVE NAVBAR -->
+
+        <div class="Responsive-Navbar" id="NavBar">
+          <ul>
+            <a href="/Pages/welcome.html"><li>WELCOME</li></a>
+            <a href="/Pages/ourwork.html"><li>OUR WORK</li></a>
+            <a href="/Pages/services.html"><li>SERVICES</li></a>
+            <a href="/Pages/team.html"><li>TEAM</li></a>
+            <a href="/Pages/journal.html"><li>JOURNAL</li></a>
+            <a href="/Pages/letstalk.html"><li>LET'S TALK</li></a>
+            <i class="ri-close-large-line" onclick="HideMenu()"></i>
+          </ul>
+        </div>
+
+        <!-- Hero Section -->
+
+        <h2>
+          LET'S MAKE SOMETHING AWESOME <br />
+          TOGETHER
+        </h2>
+        <p>
+          Please don’t hesitate in contacting us with any question you may have.
+        </p>
+        <span>We will get back to you as soon as possible.</span>
+
+        <!-- MAP SECTION -->
+
+        <div class="Map-Boxes">
+          <div class="Map-Text">
+            <div class="Map-Address-One">
+              <h1>We speak english!|</h1>
+              <h3>Studio Brooklyn</h3>
+              <p>
+                1404 New York Ave <br />
+                Brooklyn, NY 11210 <br />
+                USA
+              </p>
+              <span>brooklyn@wp-brooklyn.com</span>
+              <span>+49 555 123 456</span>
+            </div>
+
+            <!-- Map address two -->
+
+            <div class="Map-Address-Two">
+              <h3>Studio Brooklyn</h3>
+              <p>
+                1404 New York Ave <br />
+                Brooklyn, NY 11210 <br />
+                USA
+              </p>
+              <span>brooklyn@wp-brooklyn.com</span>
+              <span>+49 555 123 456</span>
+            </div>
+          </div>
+
+          <!-- MAp 's img  Second Box  -->
+
+          <div class="Map-Img-Box">
+            <div class="Map-Iframe">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14877.22346913786!2d72.91061989999999!3d21.21971635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1719405862131!5m2!1sen!2sin"
+                width="100%"
+                height="250"
+                style="border: 0"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <!-- Map Form -->
+            <div class="Map-Form">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="9a4e27c5-8123-4620-9aa6-0461b7b8df87"
+                />
+                <label for="Name" class="Form-Text">Your Name (Required)</label><br />
+                <input
+                  type="text"
+                  id="Name"
+                  name="Name"
+                  class="FullName"
+                  required
+                />
+
+                <label for="Email" class="Form-Text">Your Email (Required)</label><br />
+                <input
+                  type="text"
+                  id="Email"
+                  name="Email"
+                  class="FullName"
+                  required
+                />
+
+                <label for="Subject" class="Form-Text"> Subject</label><br />
+                <input
+                  type="text"
+                  id="Subject"
+                  name="Subject"
+                  class="FullName"
+                />
+
+                <label for="TextArea" class="Form-Text">Your Message</label><br />
+                <textarea
+                  id="Textarea"
+                  name="TextArea"
+                  style="
+                    height: 200px;
+                    width: 100%;
+                    padding-top: 50px;
+                    color: rgba(128, 128, 128, 0.692);
+                    outline: none;
+                  "
+                >
+                </textarea>
+
+                <button class="Formbtn"><span>SEND</span></button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="container">
+          <footer>
+            <div class="Footer-Area">
+              <div class="Work-Together">
+                <h1>LET'S WORK TOGETHER</h1>
+                <p>
+                  Brooklyn, a truly multipurpose parallax WordPress theme with
+                  more than one face.
+                </p>
+              </div>
+
+              <div class="Address">
+                <div class="Branches">
+                  <h2>Studio Brooklyn</h2>
+                  <p>1404 New York Ave Brooklyn, NY 11210 USA</p>
+                  <h3>brooklyn@wp-brooklyn.com</h3>
+                  <span>+49 555 123 456</span>
+                </div>
+
+                <div class="Branches">
+                  <h2>Studio Berlin</h2>
+                  <p>Musterstr. 44 54123 Berlin GER</p>
+                  <h3>berlin@wp-brooklyn.com</h3>
+                  <span>+49 555 123 457</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="Copyright-Social">
+              <div class="Copyright">
+                <h3>Brooklyn.</h3>
+                <p>© 2011 – 2019 UNITED THEMES™</p>
+              </div>
+              <div class="Social-Media">
+                <a href="/"><i class="ri-instagram-line"></i></a>
+                <a href="/"><i class="ri-behance-line"></i></a>
+                <a href="/"><i class="ri-twitter-fill"></i></a>
+                <a href="/"><i class="ri-facebook-fill"></i></a>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/brooklyn.js"></script>
+  </body>
+</html>
